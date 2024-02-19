@@ -1,7 +1,21 @@
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.top-card-title {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 ul {
@@ -9,4 +23,53 @@ ul {
     text-decoration: none;
     list-style-type: none;
     gap: 30px;
+    margin: 0px;
+    color: grey;
+}
+
+.top-card {
+    display: flex;
+    background-color: rgb(47, 47, 62);
+    padding: 80px;
+    align-content: center;
+    justify-content: center;
+}
+
+.top-card-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 300px;
+}
+
+.top-card-subtext {
+    color: grey;
+}
+
+.top-card-content {
+    display: flex;
+    gap: 50px;
+}
+
+.placeholder-image {
+    display: flex;
+    width: 500px;
+    height: 200px;
+    color: white;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign-up-button {
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 143, 250);
+    width: 100px;
+    height: 30px;
+    border: 0px;
+}
+
+.header-top-card {
+    background-color: rgb(47, 47, 62);
 }
