@@ -8,8 +8,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
     color: white;
+    margin-top: 15px;
 }
 
 .top-card-title {
@@ -28,11 +28,10 @@ ul {
 }
 
 .top-card {
-    display: flex;
     background-color: rgb(47, 47, 62);
-    padding: 80px;
-    align-content: center;
-    justify-content: center;
+    margin: 80px 0;
+    justify-content: space-between;
+    
 }
 
 .top-card-left {
@@ -48,7 +47,7 @@ ul {
 
 .top-card-content {
     display: flex;
-    gap: 50px;
+    justify-content: space-between;
 }
 
 .placeholder-image {
@@ -71,5 +70,9 @@ ul {
 }
 
 .header-top-card {
+    display: flex;
+    flex-direction: column;
     background-color: rgb(47, 47, 62);
+    padding: 0px 180px;
+    justify-content: space-between;
 }
