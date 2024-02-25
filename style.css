@@ -124,3 +124,25 @@ ul {
     align-items: end;
     padding: 100px 250px;
 }
+
+.call-to-action-card {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+    padding: 25px 100px;
+    background-color: rgb(124, 124, 239);
+    border-radius: 10px;
+}
+
+.call-to-action-card > .sign-up-button {
+    border: white;
+    border: solid 2px;
+    background-color: transparent;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+}
