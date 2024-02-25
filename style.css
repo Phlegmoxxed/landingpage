@@ -1,3 +1,7 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 body {
     margin: 0px;
     display: flex;
@@ -13,9 +17,9 @@ body {
 }
 
 .top-card-title {
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 700;
 }
 
 ul {
@@ -28,32 +32,35 @@ ul {
 }
 
 .top-card {
-    background-color: rgb(47, 47, 62);
+    display: flex;
     margin: 80px 0;
     justify-content: space-between;
-    
+    gap: 100px;
 }
 
 .top-card-left {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 300px;
+    width: auto;
+    gap: 10px;
 }
 
-.top-card-subtext {
-    color: grey;
+.top-card-subtext, .header > ul > li {
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 .top-card-content {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .placeholder-image {
     display: flex;
-    width: 500px;
-    height: 200px;
+    padding: 0 200px;
+    height: auto;
     color: white;
     background-color: grey;
     align-items: center;
@@ -63,7 +70,7 @@ ul {
 .sign-up-button {
     border-radius: 5px;
     color: white;
-    background-color: rgb(43, 143, 250);
+    background-color: #3882f6;
     width: 100px;
     height: 30px;
     border: 0px;
@@ -78,10 +85,11 @@ ul {
 }
 
 .grid-title {
-    font-weight: bold;
-    font-size: 25px;
+    font-weight: 800;
+    font-size: 36px;
     text-align: center;
     padding: 50px;
+    color: #1f2937;
 }
 
 .four-grids {
@@ -92,7 +100,7 @@ ul {
 }
 
 .box {
-    border-color: blue;
+    border-color: #3882f6;
     border-radius: 20px;
     border-width: 3px;
     border-style: solid;
@@ -115,14 +123,22 @@ ul {
 }
 
 .testimonial-card {
-    background-color: grey;
-    color: white;
-    font-size: 25px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: end;
     padding: 100px 250px;
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+}
+
+.testimonal-author {
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: 700;
 }
 
 .call-to-action-card {
@@ -132,7 +148,7 @@ ul {
     align-items: center;
     margin: 100px 200px;
     padding: 25px 100px;
-    background-color: rgb(124, 124, 239);
+    background-color: #3882f6;
     border-radius: 10px;
 }
 
@@ -150,6 +166,9 @@ ul {
 .footer {
     text-align: center;
     padding: 25px;
-    background-color: blue;
     color: white;
+}
+
+.header-top-card, .footer {
+    background-color: #1f2937;
 }
